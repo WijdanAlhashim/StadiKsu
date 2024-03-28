@@ -1,2 +1,7 @@
-# StadiKsu
-We are 5 student from KSU working on a project for Software engineering 
+# StadiKSU
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
