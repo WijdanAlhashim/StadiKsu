@@ -67,7 +67,7 @@ class _CoverPageWidgetState extends State<CoverPageWidget> {
                                     0.0, 0.0, 0.0, 0.0),
                                 iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 0.0),
-                                color: const Color(0xFFB0D6E5),
+                                color: const Color(0xFF64A5BD),
                                 textStyle: FlutterFlowTheme.of(context)
                                     .titleMedium
                                     .override(
@@ -141,7 +141,7 @@ class _CoverPageWidgetState extends State<CoverPageWidget> {
                                 .labelMedium
                                 .override(
                                   fontFamily: 'Readex Pro',
-                                  color: const Color(0xFF749AAB),
+                                  color: const Color(0xFF64A5BD),
                                   letterSpacing: 0.0,
                                 ),
                           ),

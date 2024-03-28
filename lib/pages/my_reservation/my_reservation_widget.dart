@@ -54,7 +54,7 @@ class _MyReservationWidgetState extends State<MyReservationWidget> {
             buttonSize: 60.0,
             icon: const Icon(
               Icons.arrow_back_rounded,
-              color: Color(0xFFAED9E7),
+              color: Color(0xFF64A5BD),
               size: 30.0,
             ),
             onPressed: () async {
@@ -65,7 +65,8 @@ class _MyReservationWidgetState extends State<MyReservationWidget> {
             'My Reservation',
             style: FlutterFlowTheme.of(context).headlineSmall.override(
                   fontFamily: 'Outfit',
-                  color: const Color(0xFFAED9E7),
+                  color: const Color(0xFF64A5BD),
+                  fontSize: 25.0,
                   letterSpacing: 0.0,
                 ),
           ),
