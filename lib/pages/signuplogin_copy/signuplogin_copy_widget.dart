@@ -8,19 +8,19 @@ import '/flutter_flow/form_field_controller.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'signuplogin_model.dart';
-export 'signuplogin_model.dart';
+import 'signuplogin_copy_model.dart';
+export 'signuplogin_copy_model.dart';
 
-class SignuploginWidget extends StatefulWidget {
-  const SignuploginWidget({super.key});
+class SignuploginCopyWidget extends StatefulWidget {
+  const SignuploginCopyWidget({super.key});
 
   @override
-  State<SignuploginWidget> createState() => _SignuploginWidgetState();
+  State<SignuploginCopyWidget> createState() => _SignuploginCopyWidgetState();
 }
 
-class _SignuploginWidgetState extends State<SignuploginWidget>
+class _SignuploginCopyWidgetState extends State<SignuploginCopyWidget>
     with TickerProviderStateMixin {
-  late SignuploginModel _model;
+  late SignuploginCopyModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -82,7 +82,7 @@ class _SignuploginWidgetState extends State<SignuploginWidget>
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => SignuploginModel());
+    _model = createModel(context, () => SignuploginCopyModel());
 
     _model.tabBarController = TabController(
       vsync: this,
@@ -556,7 +556,7 @@ class _SignuploginWidgetState extends State<SignuploginWidget>
                                                                     0.0,
                                                                     0.0),
                                                         color:
-                                                            const Color(0xFFB0D6E5),
+                                                            const Color(0xFF64A5BD),
                                                         textStyle:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -1299,7 +1299,7 @@ class _SignuploginWidgetState extends State<SignuploginWidget>
                                                                   0.0,
                                                                   0.0,
                                                                   0.0),
-                                                      color: const Color(0xFF64A5BD),
+                                                      color: const Color(0xFFB0D6E5),
                                                       textStyle:
                                                           FlutterFlowTheme.of(
                                                                   context)

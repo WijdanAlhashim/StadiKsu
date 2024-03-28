@@ -48,8 +48,8 @@ class _ReservationinfoWidgetState extends State<ReservationinfoWidget> {
             automaticallyImplyLeading: true,
             leading: const Icon(
               Icons.arrow_back,
-              color: Color(0xFFAED9E7),
-              size: 24.0,
+              color: Color(0xFF64A5BD),
+              size: 30.0,
             ),
             title: Padding(
               padding: const EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 40.0),
@@ -63,8 +63,8 @@ class _ReservationinfoWidgetState extends State<ReservationinfoWidget> {
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Readex Pro',
-                            color: const Color(0xFFAED9E7),
-                            fontSize: 22.0,
+                            color: const Color(0xFF64A5BD),
+                            fontSize: 25.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.normal,
                           ),
@@ -280,7 +280,7 @@ class _ReservationinfoWidgetState extends State<ReservationinfoWidget> {
                   width: 160.0,
                   height: 40.0,
                   decoration: BoxDecoration(
-                    color: const Color(0xFFDBEAF2),
+                    color: const Color(0xFFD1E8F3),
                     borderRadius: BorderRadius.circular(18.0),
                   ),
                   child: Align(

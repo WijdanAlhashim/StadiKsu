@@ -20,11 +20,6 @@ class ReservationRecord extends FirestoreRecord {
   DateTime? get date => _date;
   bool hasDate() => _date != null;
 
-  // "purpose" field.
-  String? _purpose;
-  String get purpose => _purpose ?? '';
-  bool hasPurpose() => _purpose != null;
-
   // "stadiumID" field.
   DocumentReference? _stadiumID;
   DocumentReference? get stadiumID => _stadiumID;
@@ -37,7 +32,6 @@ class ReservationRecord extends FirestoreRecord {
 
   void _initializeFields() {
     _date = snapshotData['date'] as DateTime?;
-    _purpose = snapshotData['purpose'] as String?;
     _stadiumID = snapshotData['stadiumID'] as DocumentReference?;
     _userID = snapshotData['UserID'] as DocumentReference?;
   }
@@ -78,14 +72,12 @@ class ReservationRecord extends FirestoreRecord {
 
 Map<String, dynamic> createReservationRecordData({
   DateTime? date,
-  String? purpose,
   DocumentReference? stadiumID,
   DocumentReference? userID,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
       'date': date,
-      'purpose': purpose,
       'stadiumID': stadiumID,
       'UserID': userID,
     }.withoutNulls,
@@ -100,14 +92,13 @@ class ReservationRecordDocumentEquality implements Equality<ReservationRecord> {
   @override
   bool equals(ReservationRecord? e1, ReservationRecord? e2) {
     return e1?.date == e2?.date &&
-        e1?.purpose == e2?.purpose &&
         e1?.stadiumID == e2?.stadiumID &&
         e1?.userID == e2?.userID;
   }
 
   @override
   int hash(ReservationRecord? e) =>
-      const ListEquality().hash([e?.date, e?.purpose, e?.stadiumID, e?.userID]);
+      const ListEquality().hash([e?.date, e?.stadiumID, e?.userID]);
 
   @override
   bool isValidKey(Object? o) => o is ReservationRecord;

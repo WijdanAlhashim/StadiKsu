@@ -92,11 +92,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => const ConfirmationPageWidget(),
         ),
         FFRoute(
-          name: 'HomePage',
-          path: '/homePage',
-          builder: (context, params) => const HomePageWidget(),
-        ),
-        FFRoute(
           name: 'signuplogin',
           path: '/signuplogin',
           builder: (context, params) => const SignuploginWidget(),
@@ -112,9 +107,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => const MyReservation1Widget(),
         ),
         FFRoute(
-          name: 'HomePage1',
-          path: '/homePage1',
-          builder: (context, params) => const HomePage1Widget(),
+          name: 'HomePage',
+          path: '/homePage',
+          builder: (context, params) => const HomePageWidget(),
         ),
         FFRoute(
           name: 'ReservationsPage',
@@ -127,9 +122,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => const MyReservationWidget(),
         ),
         FFRoute(
-          name: 'ReservationsPagefinalCopy',
-          path: '/reservationsPagefinalCopy',
-          builder: (context, params) => const ReservationsPagefinalCopyWidget(),
+          name: 'ReservationsPagefinalEdit',
+          path: '/reservationsPagefinalEdit',
+          builder: (context, params) => const ReservationsPagefinalEditWidget(),
         ),
         FFRoute(
           name: 'MyReservationHistory',
@@ -145,6 +140,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ParamType.FFUploadedFile,
             ),
           ),
+        ),
+        FFRoute(
+          name: 'signuploginCopy',
+          path: '/signuploginCopy',
+          builder: (context, params) => const SignuploginCopyWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

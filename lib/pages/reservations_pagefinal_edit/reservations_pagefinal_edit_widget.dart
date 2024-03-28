@@ -7,27 +7,27 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/form_field_controller.dart';
 import 'package:flutter/material.dart';
-import 'reservations_pagefinal_copy_model.dart';
-export 'reservations_pagefinal_copy_model.dart';
+import 'reservations_pagefinal_edit_model.dart';
+export 'reservations_pagefinal_edit_model.dart';
 
-class ReservationsPagefinalCopyWidget extends StatefulWidget {
-  const ReservationsPagefinalCopyWidget({super.key});
+class ReservationsPagefinalEditWidget extends StatefulWidget {
+  const ReservationsPagefinalEditWidget({super.key});
 
   @override
-  State<ReservationsPagefinalCopyWidget> createState() =>
-      _ReservationsPagefinalCopyWidgetState();
+  State<ReservationsPagefinalEditWidget> createState() =>
+      _ReservationsPagefinalEditWidgetState();
 }
 
-class _ReservationsPagefinalCopyWidgetState
-    extends State<ReservationsPagefinalCopyWidget> {
-  late ReservationsPagefinalCopyModel _model;
+class _ReservationsPagefinalEditWidgetState
+    extends State<ReservationsPagefinalEditWidget> {
+  late ReservationsPagefinalEditModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => ReservationsPagefinalCopyModel());
+    _model = createModel(context, () => ReservationsPagefinalEditModel());
   }
 
   @override
@@ -54,8 +54,8 @@ class _ReservationsPagefinalCopyWidgetState
             automaticallyImplyLeading: true,
             leading: const Icon(
               Icons.arrow_back,
-              color: Color(0xFFAED9E7),
-              size: 24.0,
+              color: Color(0xFF64A5BD),
+              size: 30.0,
             ),
             title: Padding(
               padding: const EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 40.0),
@@ -69,8 +69,8 @@ class _ReservationsPagefinalCopyWidgetState
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Readex Pro',
-                            color: const Color(0xFFAED9E7),
-                            fontSize: 22.0,
+                            color: const Color(0xFF64A5BD),
+                            fontSize: 25.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.normal,
                           ),
@@ -618,7 +618,7 @@ class _ReservationsPagefinalCopyWidgetState
                                           iconPadding:
                                               const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 0.0, 0.0),
-                                          color: const Color(0xFFDBEAF2),
+                                          color: const Color(0xFFD7ECF4),
                                           textStyle:
                                               FlutterFlowTheme.of(context)
                                                   .displaySmall

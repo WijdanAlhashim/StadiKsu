@@ -49,7 +49,7 @@ class _ConfirmationPageWidgetState extends State<ConfirmationPageWidget> {
             buttonSize: 60.0,
             icon: const Icon(
               Icons.arrow_back_rounded,
-              color: Color(0xFFAED9E7),
+              color: Color(0xFF64A5BD),
               size: 30.0,
             ),
             onPressed: () async {

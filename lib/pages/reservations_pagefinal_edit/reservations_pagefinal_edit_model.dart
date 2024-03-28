@@ -1,12 +1,12 @@
 import '/flutter_flow/flutter_flow_calendar.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/form_field_controller.dart';
-import 'reservations_pagefinal_copy_widget.dart'
-    show ReservationsPagefinalCopyWidget;
+import 'reservations_pagefinal_edit_widget.dart'
+    show ReservationsPagefinalEditWidget;
 import 'package:flutter/material.dart';
 
-class ReservationsPagefinalCopyModel
-    extends FlutterFlowModel<ReservationsPagefinalCopyWidget> {
+class ReservationsPagefinalEditModel
+    extends FlutterFlowModel<ReservationsPagefinalEditWidget> {
   ///  State fields for stateful widgets in this page.
 
   final unfocusNode = FocusNode();
