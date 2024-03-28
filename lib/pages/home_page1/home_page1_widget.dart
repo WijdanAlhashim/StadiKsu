@@ -1,11 +1,7 @@
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
-
 import 'home_page1_model.dart';
 export 'home_page1_model.dart';
 
@@ -40,25 +36,26 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
       key: scaffoldKey,
       backgroundColor: FlutterFlowTheme.of(context).info,
       body: Padding(
-        padding: EdgeInsetsDirectional.fromSTEB(0, 80, 0, 0),
+        padding: const EdgeInsetsDirectional.fromSTEB(0.0, 80.0, 0.0, 0.0),
         child: Container(
-          width: 1000,
-          height: 10190,
-          decoration: BoxDecoration(),
-          alignment: AlignmentDirectional(0, 0),
+          width: 1000.0,
+          height: 10190.0,
+          decoration: const BoxDecoration(),
+          alignment: const AlignmentDirectional(0.0, 0.0),
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
               Align(
-                alignment: AlignmentDirectional(0, -1),
+                alignment: const AlignmentDirectional(0.0, -1.0),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   children: [
                     Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(30, 3, 0, 0),
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(30.0, 3.0, 0.0, 0.0),
                       child: Container(
-                        width: 337,
-                        height: 36,
+                        width: 337.0,
+                        height: 36.0,
                         decoration: BoxDecoration(
                           color:
                               FlutterFlowTheme.of(context).secondaryBackground,
@@ -66,26 +63,31 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                         child: Stack(
                           children: [
                             Align(
-                              alignment: AlignmentDirectional(0, 0),
+                              alignment: const AlignmentDirectional(0.0, 0.0),
                               child: Padding(
-                                padding:
-                                    EdgeInsetsDirectional.fromSTEB(0, 6, 0, 0),
+                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 6.0, 0.0, 0.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Align(
-                                      alignment: AlignmentDirectional(-1, -1),
-                                      child: Text(
-                                        'Welcome',
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .override(
-                                              fontFamily: 'Barlow',
-                                              color: Color(0xFF2589A3),
-                                              fontSize: 27,
-                                              letterSpacing: 0,
-                                              fontWeight: FontWeight.w300,
-                                            ),
+                                      alignment:
+                                          const AlignmentDirectional(-1.0, -1.0),
+                                      child: Padding(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
+                                            0.0, 5.0, 0.0, 0.0),
+                                        child: Text(
+                                          'Welcome',
+                                          style: FlutterFlowTheme.of(context)
+                                              .bodyMedium
+                                              .override(
+                                                fontFamily: 'Barlow',
+                                                color: const Color(0xFF2589A3),
+                                                fontSize: 22.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight: FontWeight.w300,
+                                              ),
+                                        ),
                                       ),
                                     ),
                                     Flexible(
@@ -93,24 +95,24 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                         opacity: 0.7,
                                         child: Align(
                                           alignment:
-                                              AlignmentDirectional(1, -1),
+                                              const AlignmentDirectional(1.0, -1.0),
                                           child: Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    200, 0, 0, 0),
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    200.0, 0.0, 0.0, 0.0),
                                             child: FlutterFlowIconButton(
                                               borderColor:
                                                   FlutterFlowTheme.of(context)
                                                       .info,
-                                              borderRadius: 20,
-                                              borderWidth: 1,
-                                              buttonSize: 40,
+                                              borderRadius: 20.0,
+                                              borderWidth: 1.0,
+                                              buttonSize: 40.0,
                                               fillColor: Colors.white,
-                                              icon: Icon(
+                                              icon: const Icon(
                                                 Icons
                                                     .notifications_active_rounded,
                                                 color: Color(0xFF2589A3),
-                                                size: 24,
+                                                size: 24.0,
                                               ),
                                               onPressed: () {
                                                 print('IconButton pressed ...');
@@ -132,8 +134,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                 ),
               ),
               Container(
-                width: 332,
-                height: 19,
+                width: 332.0,
+                height: 19.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                 ),
@@ -141,15 +143,14 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                   'Book a stadium for your event easily !',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Barlow',
-                        color: Color(0xFF124252),
-                        fontSize: 17,
-                        letterSpacing: 0,
+                        color: const Color(0xFF124252),
+                        letterSpacing: 0.0,
                       ),
                 ),
               ),
               Container(
-                width: 359,
-                height: 26,
+                width: 359.0,
+                height: 26.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                 ),
@@ -158,28 +159,29 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                   children: [
                     FlutterFlowIconButton(
                       borderColor: Colors.white,
-                      borderRadius: 20,
-                      borderWidth: 1,
-                      buttonSize: 30,
+                      borderRadius: 20.0,
+                      borderWidth: 1.0,
+                      buttonSize: 27.0,
                       fillColor: Colors.white,
-                      icon: Icon(
+                      icon: const Icon(
                         Icons.location_pin,
                         color: Color(0xFF2589A3),
-                        size: 18,
+                        size: 18.0,
                       ),
                       onPressed: () {
                         print('IconButton pressed ...');
                       },
                     ),
                     Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 5.0, 0.0, 0.0),
                       child: Text(
                         'Collage of Computer and Information Science',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Barlow',
-                              color: Color(0xFF64A5BD),
-                              fontSize: 15,
-                              letterSpacing: 0,
+                              color: const Color(0xFF64A5BD),
+                              fontSize: 12.0,
+                              letterSpacing: 0.0,
                             ),
                       ),
                     ),
@@ -187,56 +189,56 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(0, 0),
+                alignment: const AlignmentDirectional(0.0, 0.0),
                 child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 0.0),
                   child: Container(
-                    width: 1000,
-                    height: 693,
+                    width: 1000.0,
+                    height: 693.0,
                     decoration: BoxDecoration(
                       color: FlutterFlowTheme.of(context).secondaryBackground,
-                      borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.circular(10),
-                        bottomRight: Radius.circular(10),
-                        topLeft: Radius.circular(10),
-                        topRight: Radius.circular(10),
+                      borderRadius: const BorderRadius.only(
+                        bottomLeft: Radius.circular(10.0),
+                        bottomRight: Radius.circular(10.0),
+                        topLeft: Radius.circular(10.0),
+                        topRight: Radius.circular(10.0),
                       ),
                     ),
-                    alignment: AlignmentDirectional(0, -1),
-                    child: Container(
-                      width: 590,
+                    alignment: const AlignmentDirectional(0.0, -1.0),
+                    child: SizedBox(
+                      width: 590.0,
                       child: Stack(
                         children: [
-                          Container(
-                            height: 590,
+                          SizedBox(
+                            height: 590.0,
                             child: Stack(
                               children: [
                                 Opacity(
                                   opacity: 0.6,
                                   child: Align(
                                     alignment:
-                                        AlignmentDirectional(-0.66, -0.99),
+                                        const AlignmentDirectional(-0.66, -0.99),
                                     child: Container(
-                                      width: 260,
-                                      height: 25,
+                                      width: 260.0,
+                                      height: 25.0,
                                       decoration: BoxDecoration(
                                         color:
                                             FlutterFlowTheme.of(context).info,
-                                        boxShadow: [
+                                        boxShadow: const [
                                           BoxShadow(
-                                            blurRadius: 4,
+                                            blurRadius: 4.0,
                                             color: Color(0x33000000),
                                             offset: Offset(
-                                              0,
-                                              2,
+                                              0.0,
+                                              2.0,
                                             ),
                                           )
                                         ],
-                                        borderRadius: BorderRadius.only(
-                                          bottomLeft: Radius.circular(8),
-                                          bottomRight: Radius.circular(8),
-                                          topLeft: Radius.circular(8),
-                                          topRight: Radius.circular(8),
+                                        borderRadius: const BorderRadius.only(
+                                          bottomLeft: Radius.circular(8.0),
+                                          bottomRight: Radius.circular(8.0),
+                                          topLeft: Radius.circular(8.0),
+                                          topRight: Radius.circular(8.0),
                                         ),
                                         shape: BoxShape.rectangle,
                                         border: Border.all(
@@ -250,18 +252,18 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                   opacity: 0.4,
                                   child: Align(
                                     alignment:
-                                        AlignmentDirectional(-2.98, -1.03),
+                                        const AlignmentDirectional(-2.98, -1.03),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          200, 0, 0, 0),
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
+                                          200.0, 0.0, 0.0, 0.0),
                                       child: FlutterFlowIconButton(
-                                        borderRadius: 20,
-                                        borderWidth: 1,
-                                        buttonSize: 36,
-                                        icon: Icon(
+                                        borderRadius: 20.0,
+                                        borderWidth: 1.0,
+                                        buttonSize: 36.0,
+                                        icon: const Icon(
                                           Icons.search_rounded,
                                           color: Color(0xFF2589A3),
-                                          size: 24,
+                                          size: 24.0,
                                         ),
                                         onPressed: () {
                                           print('IconButton pressed ...');
@@ -271,7 +273,7 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                   ),
                                 ),
                                 Align(
-                                  alignment: AlignmentDirectional(-0.46, -0.98),
+                                  alignment: const AlignmentDirectional(-0.46, -0.98),
                                   child: Text(
                                     'Search available stadiums ...',
                                     textAlign: TextAlign.center,
@@ -279,17 +281,17 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                         .bodyMedium
                                         .override(
                                           fontFamily: 'Barlow',
-                                          color: Color(0xFF124252),
-                                          fontSize: 15,
-                                          letterSpacing: 0,
+                                          color: const Color(0xFF124252),
+                                          fontSize: 13.0,
+                                          letterSpacing: 0.0,
                                         ),
                                   ),
                                 ),
                                 Align(
-                                  alignment: AlignmentDirectional(0, 0),
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
                                   child: Container(
-                                    width: 350,
-                                    height: 514,
+                                    width: 350.0,
+                                    height: 514.0,
                                     decoration: BoxDecoration(
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryBackground,
@@ -299,15 +301,15 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                       scrollDirection: Axis.vertical,
                                       children: [
                                         Container(
-                                          width: 100,
-                                          height: 100,
-                                          decoration: BoxDecoration(
+                                          width: 100.0,
+                                          height: 100.0,
+                                          decoration: const BoxDecoration(
                                             color: Color(0xFFDBEAF2),
                                             borderRadius: BorderRadius.only(
-                                              bottomLeft: Radius.circular(8),
-                                              bottomRight: Radius.circular(8),
-                                              topLeft: Radius.circular(8),
-                                              topRight: Radius.circular(8),
+                                              bottomLeft: Radius.circular(8.0),
+                                              bottomRight: Radius.circular(8.0),
+                                              topLeft: Radius.circular(8.0),
+                                              topRight: Radius.circular(8.0),
                                             ),
                                           ),
                                           child: Row(
@@ -317,8 +319,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                 mainAxisSize: MainAxisSize.max,
                                                 children: [
                                                   Container(
-                                                    width: 100,
-                                                    height: 100,
+                                                    width: 100.0,
+                                                    height: 100.0,
                                                     decoration: BoxDecoration(
                                                       color: FlutterFlowTheme
                                                               .of(context)
@@ -327,11 +329,11 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                     child: ClipRRect(
                                                       borderRadius:
                                                           BorderRadius.circular(
-                                                              8),
+                                                              8.0),
                                                       child: Image.asset(
                                                         'assets/images/photo_2024-03-26_13-31-05.jpg',
-                                                        width: 300,
-                                                        height: 200,
+                                                        width: 300.0,
+                                                        height: 200.0,
                                                         fit: BoxFit.cover,
                                                       ),
                                                     ),
@@ -339,11 +341,12 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                 ],
                                               ),
                                               Align(
-                                                alignment: AlignmentDirectional(
-                                                    -1, -1),
+                                                alignment: const AlignmentDirectional(
+                                                    -1.0, -1.0),
                                                 child: Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(14, 20, 0, 0),
+                                                  padding: const EdgeInsetsDirectional
+                                                      .fromSTEB(
+                                                          14.0, 20.0, 0.0, 0.0),
                                                   child: Text(
                                                     'Mariyah Stadium\nAvailable',
                                                     style: FlutterFlowTheme.of(
@@ -353,8 +356,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                           fontFamily:
                                                               'Readex Pro',
                                                           color:
-                                                              Color(0xFF207E63),
-                                                          letterSpacing: 0,
+                                                              const Color(0xFF207E63),
+                                                          letterSpacing: 0.0,
                                                         ),
                                                   ),
                                                 ),
@@ -363,15 +366,15 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                           ),
                                         ),
                                         Container(
-                                          width: 100,
-                                          height: 100,
-                                          decoration: BoxDecoration(
+                                          width: 100.0,
+                                          height: 100.0,
+                                          decoration: const BoxDecoration(
                                             color: Color(0xFFDBEAF2),
                                             borderRadius: BorderRadius.only(
-                                              bottomLeft: Radius.circular(8),
-                                              bottomRight: Radius.circular(8),
-                                              topLeft: Radius.circular(8),
-                                              topRight: Radius.circular(8),
+                                              bottomLeft: Radius.circular(8.0),
+                                              bottomRight: Radius.circular(8.0),
+                                              topLeft: Radius.circular(8.0),
+                                              topRight: Radius.circular(8.0),
                                             ),
                                           ),
                                           child: Row(
@@ -381,8 +384,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                 mainAxisSize: MainAxisSize.max,
                                                 children: [
                                                   Container(
-                                                    width: 100,
-                                                    height: 100,
+                                                    width: 100.0,
+                                                    height: 100.0,
                                                     decoration: BoxDecoration(
                                                       color: FlutterFlowTheme
                                                               .of(context)
@@ -391,11 +394,11 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                     child: ClipRRect(
                                                       borderRadius:
                                                           BorderRadius.circular(
-                                                              8),
+                                                              8.0),
                                                       child: Image.asset(
                                                         'assets/images/photo_2024-03-26_13-31-01.jpg',
-                                                        width: 300,
-                                                        height: 200,
+                                                        width: 300.0,
+                                                        height: 200.0,
                                                         fit: BoxFit.cover,
                                                       ),
                                                     ),
@@ -403,11 +406,12 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                 ],
                                               ),
                                               Align(
-                                                alignment: AlignmentDirectional(
-                                                    -1, -1),
+                                                alignment: const AlignmentDirectional(
+                                                    -1.0, -1.0),
                                                 child: Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(14, 20, 0, 0),
+                                                  padding: const EdgeInsetsDirectional
+                                                      .fromSTEB(
+                                                          14.0, 20.0, 0.0, 0.0),
                                                   child: Text(
                                                     'Khadijah Stadium\nAvailable',
                                                     style: FlutterFlowTheme.of(
@@ -417,8 +421,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                           fontFamily:
                                                               'Readex Pro',
                                                           color:
-                                                              Color(0xFF207E63),
-                                                          letterSpacing: 0,
+                                                              const Color(0xFF207E63),
+                                                          letterSpacing: 0.0,
                                                         ),
                                                   ),
                                                 ),
@@ -427,15 +431,15 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                           ),
                                         ),
                                         Container(
-                                          width: 100,
-                                          height: 100,
-                                          decoration: BoxDecoration(
+                                          width: 100.0,
+                                          height: 100.0,
+                                          decoration: const BoxDecoration(
                                             color: Color(0xFFDBEAF2),
                                             borderRadius: BorderRadius.only(
-                                              bottomLeft: Radius.circular(8),
-                                              bottomRight: Radius.circular(8),
-                                              topLeft: Radius.circular(8),
-                                              topRight: Radius.circular(8),
+                                              bottomLeft: Radius.circular(8.0),
+                                              bottomRight: Radius.circular(8.0),
+                                              topLeft: Radius.circular(8.0),
+                                              topRight: Radius.circular(8.0),
                                             ),
                                           ),
                                           child: Row(
@@ -445,8 +449,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                 mainAxisSize: MainAxisSize.max,
                                                 children: [
                                                   Container(
-                                                    width: 100,
-                                                    height: 100,
+                                                    width: 100.0,
+                                                    height: 100.0,
                                                     decoration: BoxDecoration(
                                                       color: FlutterFlowTheme
                                                               .of(context)
@@ -455,11 +459,11 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                     child: ClipRRect(
                                                       borderRadius:
                                                           BorderRadius.circular(
-                                                              8),
+                                                              8.0),
                                                       child: Image.asset(
                                                         'assets/images/photo_2024-03-26_13-31-02.jpg',
-                                                        width: 300,
-                                                        height: 200,
+                                                        width: 300.0,
+                                                        height: 200.0,
                                                         fit: BoxFit.cover,
                                                       ),
                                                     ),
@@ -467,11 +471,12 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                 ],
                                               ),
                                               Align(
-                                                alignment: AlignmentDirectional(
-                                                    -1, -1),
+                                                alignment: const AlignmentDirectional(
+                                                    -1.0, -1.0),
                                                 child: Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(14, 20, 0, 0),
+                                                  padding: const EdgeInsetsDirectional
+                                                      .fromSTEB(
+                                                          14.0, 20.0, 0.0, 0.0),
                                                   child: Text(
                                                     'Main Stadium\nAvailable',
                                                     style: FlutterFlowTheme.of(
@@ -481,8 +486,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                           fontFamily:
                                                               'Readex Pro',
                                                           color:
-                                                              Color(0xFF207E63),
-                                                          letterSpacing: 0,
+                                                              const Color(0xFF207E63),
+                                                          letterSpacing: 0.0,
                                                         ),
                                                   ),
                                                 ),
@@ -491,15 +496,15 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                           ),
                                         ),
                                         Container(
-                                          width: 100,
-                                          height: 100,
-                                          decoration: BoxDecoration(
+                                          width: 100.0,
+                                          height: 100.0,
+                                          decoration: const BoxDecoration(
                                             color: Color(0xFFDBEAF2),
                                             borderRadius: BorderRadius.only(
-                                              bottomLeft: Radius.circular(8),
-                                              bottomRight: Radius.circular(8),
-                                              topLeft: Radius.circular(8),
-                                              topRight: Radius.circular(8),
+                                              bottomLeft: Radius.circular(8.0),
+                                              bottomRight: Radius.circular(8.0),
+                                              topLeft: Radius.circular(8.0),
+                                              topRight: Radius.circular(8.0),
                                             ),
                                           ),
                                           child: Row(
@@ -509,8 +514,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                 mainAxisSize: MainAxisSize.max,
                                                 children: [
                                                   Container(
-                                                    width: 100,
-                                                    height: 100,
+                                                    width: 100.0,
+                                                    height: 100.0,
                                                     decoration: BoxDecoration(
                                                       color: FlutterFlowTheme
                                                               .of(context)
@@ -519,11 +524,11 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                     child: ClipRRect(
                                                       borderRadius:
                                                           BorderRadius.circular(
-                                                              8),
+                                                              8.0),
                                                       child: Image.asset(
                                                         'assets/images/photo_2024-03-26_13-31-03.jpg',
-                                                        width: 300,
-                                                        height: 200,
+                                                        width: 300.0,
+                                                        height: 200.0,
                                                         fit: BoxFit.cover,
                                                       ),
                                                     ),
@@ -531,11 +536,12 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                 ],
                                               ),
                                               Align(
-                                                alignment: AlignmentDirectional(
-                                                    -1, -1),
+                                                alignment: const AlignmentDirectional(
+                                                    -1.0, -1.0),
                                                 child: Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(14, 20, 0, 0),
+                                                  padding: const EdgeInsetsDirectional
+                                                      .fromSTEB(
+                                                          14.0, 20.0, 0.0, 0.0),
                                                   child: Text(
                                                     'Mariyah Stadium\nAvailable',
                                                     style: FlutterFlowTheme.of(
@@ -545,8 +551,8 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                                           fontFamily:
                                                               'Readex Pro',
                                                           color:
-                                                              Color(0xFF207E63),
-                                                          letterSpacing: 0,
+                                                              const Color(0xFF207E63),
+                                                          letterSpacing: 0.0,
                                                         ),
                                                   ),
                                                 ),
@@ -554,7 +560,7 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                             ],
                                           ),
                                         ),
-                                      ].divide(SizedBox(height: 10)),
+                                      ].divide(const SizedBox(height: 10.0)),
                                     ),
                                   ),
                                 ),
@@ -562,16 +568,16 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0, 1.06),
+                            alignment: const AlignmentDirectional(0.0, 1.06),
                             child: Container(
-                              width: 552,
-                              height: 69,
+                              width: 552.0,
+                              height: 69.0,
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .primaryBackground,
                               ),
                               child: Align(
-                                alignment: AlignmentDirectional(0, -1),
+                                alignment: const AlignmentDirectional(0.0, -1.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
@@ -580,21 +586,21 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                       Icons.person,
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
-                                      size: 24,
+                                      size: 24.0,
                                     ),
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          60, 0, 60, 0),
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
+                                          60.0, 0.0, 60.0, 0.0),
                                       child: FlutterFlowIconButton(
-                                        borderColor: Color(0xBDB2D6E4),
-                                        borderRadius: 20,
-                                        borderWidth: 1,
-                                        buttonSize: 53,
-                                        fillColor: Color(0xBDB2D6E4),
-                                        icon: Icon(
+                                        borderColor: const Color(0xBDB2D6E4),
+                                        borderRadius: 20.0,
+                                        borderWidth: 1.0,
+                                        buttonSize: 53.0,
+                                        fillColor: const Color(0xBDB2D6E4),
+                                        icon: const Icon(
                                           Icons.home,
                                           color: Color(0xFF124252),
-                                          size: 24,
+                                          size: 24.0,
                                         ),
                                         onPressed: () {
                                           print('IconButton pressed ...');
@@ -605,7 +611,7 @@ class _HomePage1WidgetState extends State<HomePage1Widget> {
                                       Icons.list_rounded,
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
-                                      size: 24,
+                                      size: 24.0,
                                     ),
                                   ],
                                 ),
